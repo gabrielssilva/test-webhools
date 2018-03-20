@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+ - 2.2
+
+notifications:
+  webhooks: https://c7f898c3.ngrok.io/api/v1/webhook/github
+
+script: echo "oi"
