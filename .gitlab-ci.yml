@@ -2,5 +2,5 @@ image: ruby:2.1
 
 job1:
   script:
-    - echo "hi"
+    - exit 1
 
